@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ladd" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="ldate" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="ldateCreation" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="ldelete" xml:space="preserve">
+    <value>löschen</value>
+  </data>
+  <data name="ldescription" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="ldetailDescOfDev" xml:space="preserve">
+    <value>Detaillierte Beschreibung der Abweichung</value>
+  </data>
+  <data name="lDeviationInfo" xml:space="preserve">
+    <value>Informationen zur Abweichung</value>
+  </data>
+  <data name="ldeviationNo" xml:space="preserve">
+    <value>Abweichung Nr.</value>
+  </data>
+  <data name="ldeviationType" xml:space="preserve">
+    <value>Art der</value>
+  </data>
+  <data name="ldowload" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="lname" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="loptional" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lposition" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="lrequestApproved" xml:space="preserve">
+    <value>Anfrage genehmigt</value>
+  </data>
+  <data name="lrequestedBy" xml:space="preserve">
+    <value>Erstellt von</value>
+  </data>
+  <data name="lrequestedRejected" xml:space="preserve">
+    <value>Anfrage abgelehnt</value>
+  </data>
+  <data name="lriskCategory" xml:space="preserve">
+    <value>Risikokategorie</value>
+  </data>
+  <data name="lshow" xml:space="preserve">
+    <value>Anzeigen</value>
+  </data>
+  <data name="lsignature" xml:space="preserve">
+    <value>Unterschrift</value>
+  </data>
+  <data name="lstandardCondition" xml:space="preserve">
+    <value>Beschreibung Sollzustand</value>
+  </data>
+  <data name="lapprovement" xml:space="preserve">
+    <value>Freigabe</value>
+  </data>
+  <data name="lmachine" xml:space="preserve">
+    <value>Anlage</value>
+  </data>
+  <data name="lperiodBegin" xml:space="preserve">
+    <value>Beginn (der Abweichung)</value>
+  </data>
+  <data name="lperiodDevation" xml:space="preserve">
+    <value>Abweichungsdauer</value>
+  </data>
+  <data name="lperiodEnd" xml:space="preserve">
+    <value>Ende (der Abweichung)</value>
+  </data>
+  <data name="lproduct" xml:space="preserve">
+    <value>Produkt</value>
+  </data>
+  <data name="lwhy" xml:space="preserve">
+    <value>Warum</value>
+  </data>
+  <data name="lwhyBox" xml:space="preserve">
+    <value>5  Why um die Ursache des Problems zu finden bzw. aufzuzeigen</value>
+  </data>
+  <data name="ldeviationList" xml:space="preserve">
+    <value>Abweichungsliste</value>
+  </data>
+  <data name="lnewDeviation" xml:space="preserve">
+    <value>Neue Abweichung</value>
+  </data>
+  <data name="lupdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="lcreatedIn" xml:space="preserve">
+    <value>Erstellt am</value>
+  </data>
+  <data name="lref" xml:space="preserve">
+    <value>Bezug</value>
+  </data>
+  <data name="lalternativeIdMethod" xml:space="preserve">
+    <value>Anhang</value>
+  </data>
+  <data name="lclose" xml:space="preserve">
+    <value>Abweichung sperren</value>
+  </data>
+  <data name="ldetailRequestCondition" xml:space="preserve">
+    <value>Beschreibung Istzustand</value>
+  </data>
+  <data name="lothers" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lothersBox1" xml:space="preserve">
+    <value>Freigabe Regional Quality Director: Bezugnehmend auf FTDS-BM-P-008</value>
+  </data>
+  <data name="lothersBox2" xml:space="preserve">
+    <value>Freigabe Product Engineering: Bezugnehmend auf FTDS-BM-P-008</value>
+  </data>
+  <data name="lothersBox3" xml:space="preserve">
+    <value>Freigabe Manufacturing Engineering (CCC Manager): Bezugnehmend auf FTDS-BM-P-008</value>
+  </data>
+  <data name="lothersBox4" xml:space="preserve">
+    <value>Freigabe Customer: Bezugnehmend auf FTDS-BM-P-008</value>
+  </data>
+  <data name="lprint" xml:space="preserve">
+    <value>Abweichung drucken</value>
+  </data>
+  <data name="lremindGroup" xml:space="preserve">
+    <value>Gruppe erinnern</value>
+  </data>
+  <data name="lsave" xml:space="preserve">
+    <value>Abweichung speichern</value>
+  </data>
+  <data name="laddDeviation" xml:space="preserve">
+    <value>Abweichung erstellen</value>
+  </data>
+  <data name="lcloseDeviation" xml:space="preserve">
+    <value>Abweichung sperren</value>
+  </data>
+  <data name="ldate1" xml:space="preserve">
+    <value>Datum von</value>
+  </data>
+  <data name="ldate2" xml:space="preserve">
+    <value>Datum bis</value>
+  </data>
+  <data name="leditDeviation" xml:space="preserve">
+    <value>Abweichung überarbeiten</value>
+  </data>
+  <data name="lfilterDeviation" xml:space="preserve">
+    <value>Abweichung filtern</value>
+  </data>
+  <data name="lshowDeviation" xml:space="preserve">
+    <value>Abweichung anzeigen</value>
+  </data>
+  <data name="luseAllInputs" xml:space="preserve">
+    <value>Alle Angaben</value>
+  </data>
+  <data name="laddNewDeviation" xml:space="preserve">
+    <value>Erstelle eine Abweichungserlaubnis</value>
+  </data>
+  <data name="ldowonloadToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lartabweichung" xml:space="preserve">
+    <value>Abweichung</value>
+  </data>
+  <data name="ldeviationFilterBox" xml:space="preserve">
+    <value>Abweichung Suchmaske</value>
+  </data>
+  <data name="actionFailed" xml:space="preserve">
+    <value>Fehlgeschlagen</value>
+  </data>
+  <data name="alertApprovedRejected" xml:space="preserve">
+    <value>Sie können nicht zur gleichen Zeit freigeben und ablehnen</value>
+  </data>
+  <data name="alertCloseDeviation" xml:space="preserve">
+    <value>Abweichung zu sperren bedeutet, dass Sie keine Aktionen mehr durchführen können. Sind Sie sicher?</value>
+  </data>
+  <data name="alertDeleteAttachment" xml:space="preserve">
+    <value>Sind Sie sicher, dass Sie diesen Anhang löschen möchten?</value>
+  </data>
+  <data name="alertSaveDeviationFirst" xml:space="preserve">
+    <value>Änderungen sind nicht möglich, bitte speichern Sie zuerst die Abweichung</value>
+  </data>
+  <data name="approvementDone" xml:space="preserve">
+    <value>Freigabe erfolgreich</value>
+  </data>
+  <data name="chooseDeviation" xml:space="preserve">
+    <value>Bitte wählen Sie eine Abweichung, bevor Sie weitere Aktionen durchführen</value>
+  </data>
+  <data name="deviationAdded" xml:space="preserve">
+    <value>Abweichung wurde erfolgreich hinzugefügt</value>
+  </data>
+  <data name="deviationAlreadyClosed" xml:space="preserve">
+    <value>Änderungen nicht mehr möglich, da die Abweichung bereits gesperrt wurde</value>
+  </data>
+  <data name="deviationNegativePeriod" xml:space="preserve">
+    <value>Abweichungsperiode ungültig, Eingabe &lt;&lt;P.Second date&gt;&gt; muss grösser sein als Abweichungsperiode &lt;&lt;P.First date&gt;&gt;</value>
+  </data>
+  <data name="deviationNotExist" xml:space="preserve">
+    <value>Abweichung nicht vorhanden</value>
+  </data>
+  <data name="deviationPeriodNull" xml:space="preserve">
+    <value>Abweichungsperiode darf nicht leer sein, bitte wählen Sie eine entsprechende Abweichungsperiode</value>
+  </data>
+  <data name="deviationupdated" xml:space="preserve">
+    <value>Abweichung erfolgreich aktualisiert</value>
+  </data>
+  <data name="deviationWasClosed" xml:space="preserve">
+    <value>Abweichung wurde erfolgreich gesperrt</value>
+  </data>
+  <data name="emailSent" xml:space="preserve">
+    <value>Email versendet</value>
+  </data>
+  <data name="errorCloseDeviation" xml:space="preserve">
+    <value>Fehler, die Abweichung konnte nicht gesperrt werden</value>
+  </data>
+  <data name="errorSendEmail" xml:space="preserve">
+    <value>Fehler, die Email konnte nicht versendet werden, bitte versuchen Sie es erneut</value>
+  </data>
+  <data name="fileNotExist" xml:space="preserve">
+    <value>Datei nicht mehr vorhanden</value>
+  </data>
+  <data name="fileRemovedFromList" xml:space="preserve">
+    <value>Datei wurde aus der Liste entfernt</value>
+  </data>
+  <data name="formInputsNotValid" xml:space="preserve">
+    <value>Eingaben ungültig</value>
+  </data>
+  <data name="inputsMissing" xml:space="preserve">
+    <value>Eingaben fehlen</value>
+  </data>
+  <data name="inputsRequired" xml:space="preserve">
+    <value>Eingaben benötigt</value>
+  </data>
+  <data name="notAllowedToChange" xml:space="preserve">
+    <value>Änderungen nicht mehr möglich, da die Abweichung bereits gesperrt wurde</value>
+  </data>
+  <data name="notAllowedToUpdateItem" xml:space="preserve">
+    <value>Sie sind nicht berechtigt die Abweichung zu aktualisieren</value>
+  </data>
+  <data name="selectLine" xml:space="preserve">
+    <value>Bitte zuerst Linie auswählen</value>
+  </data>
+  <data name="alertApprovementAlreadyDone" xml:space="preserve">
+    <value>Bereits Freigegeben, Änderungen sind nicht mehr möglich</value>
+  </data>
+  <data name="alertDeleteApprovementGroup" xml:space="preserve">
+    <value>Sind Sie sicher, dass Sie löschen möchten?</value>
+  </data>
+  <data name="alertDeviationValidation" xml:space="preserve">
+    <value>- Bitte die Abweichung Freigeben oder Ablehnen</value>
+  </data>
+  <data name="alertInvalidTextEntered" xml:space="preserve">
+    <value>Ungültige Zeichen im Text gefunden</value>
+  </data>
+  <data name="alertNoAccess" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, diese Aktion durchzuführen</value>
+  </data>
+  <data name="alertNoItemSelected" xml:space="preserve">
+    <value>Keine Auswahl getroffen</value>
+  </data>
+  <data name="alertOutlookNotRunning" xml:space="preserve">
+    <value>Programm benötigt Outlook zum Versenden der Email, bitte starten Sie Outlook.exe</value>
+  </data>
+  <data name="alertTextboxEmpty" xml:space="preserve">
+    <value>Pflichfelder müssen gefüllt werden</value>
+  </data>
+  <data name="approvementAdded" xml:space="preserve">
+    <value>Freigabe Gruppe wurde erfolgreich hinzugefügt</value>
+  </data>
+  <data name="approvementUpdated" xml:space="preserve">
+    <value>Freigabe Gruppe wurde erfolgreich aktualisiert</value>
+  </data>
+  <data name="deleteDeviation" xml:space="preserve">
+    <value>Abweichung löschen</value>
+  </data>
+  <data name="emailSubjectLine" xml:space="preserve">
+    <value>/ Anlage :</value>
+  </data>
+  <data name="emailSubjectNewDeviationLine" xml:space="preserve">
+    <value>Neue Abweichung für die Anlage :</value>
+  </data>
+  <data name="emailSubjectNewDeviationProduct" xml:space="preserve">
+    <value>Neue Abweichung für das Produkt :</value>
+  </data>
+  <data name="formInvalid" xml:space="preserve">
+    <value>ungültiges Formular</value>
+  </data>
+  <data name="inValid" xml:space="preserve">
+    <value>Ungültig</value>
+  </data>
+  <data name="itemDeleted" xml:space="preserve">
+    <value>Erfolgreich gelöscht</value>
+  </data>
+  <data name="itemDeleteError" xml:space="preserve">
+    <value>Löschen nicht möglich, bitte treffen Sie zuerst eine Auswahl</value>
+  </data>
+  <data name="misc" xml:space="preserve">
+    <value>Sonstiges</value>
+  </data>
+  <data name="passwordChanged" xml:space="preserve">
+    <value>Passwort erfolgreich geändert</value>
+  </data>
+  <data name="passwordChangeFailed" xml:space="preserve">
+    <value>Passwort nicht geändert</value>
+  </data>
+  <data name="passwordWrong" xml:space="preserve">
+    <value>Passwort falsch</value>
+  </data>
+  <data name="saveFileDialog" xml:space="preserve">
+    <value>Bitte Verzeichnis wählen, um die Datei zu speichern</value>
+  </data>
+  <data name="valid" xml:space="preserve">
+    <value>Gültig</value>
+  </data>
+  <data name="lselectItem" xml:space="preserve">
+    <value>--Bitte wählen Sie die Art der Abweichung--</value>
+  </data>
+  <data name="lapprovementConfirm" xml:space="preserve">
+    <value>Bestätigen</value>
+  </data>
+  <data name="lapprovementLightGreenMsg" xml:space="preserve">
+    <value>Um Ihre Änderungen zu speichern, klicken Sie auf Bestätigen.</value>
+  </data>
+  <data name="lapprovementLightRedMsg" xml:space="preserve">
+    <value>Um diese Abweichung freizugeben/ablehen, muss sie erst gespeichert werden.</value>
+  </data>
+  <data name="lriskMatrixInfo" xml:space="preserve">
+    <value>(X=?,Y=?), X bezieht sich auf dem Einfluss der Produktqualität; Y bezieht sich auf der Wahrscheinlichkeit der Entdeckung.</value>
+  </data>
+  <data name="lsticPrint" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="ldigitalSignature" xml:space="preserve">
+    <value>Dieses Dokument wurde maschinell erstellt und ist ohne Unterschrift gültig. Anwendung: DeviationManager, Version: 1.0</value>
+  </data>
+  <data name="ldeviationexpiredChange" xml:space="preserve">
+    <value>Diese Abweichung wurde agelaufen, daher sind diese Änderungen nicht mehr möglich.</value>
+  </data>
+</root>

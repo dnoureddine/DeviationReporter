@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ladd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="ldate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="ldateCreation" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="ldelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ldescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ldetailDescOfDev" xml:space="preserve">
+    <value>Detailed Description of Deviation</value>
+  </data>
+  <data name="lDeviationInfo" xml:space="preserve">
+    <value>Deviation Infos</value>
+  </data>
+  <data name="ldeviationNo" xml:space="preserve">
+    <value>Deviation No</value>
+  </data>
+  <data name="ldeviationType" xml:space="preserve">
+    <value>Deviation Type</value>
+  </data>
+  <data name="ldowload" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="lname" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="loptional" xml:space="preserve">
+    <value>Other( Optional)</value>
+  </data>
+  <data name="lposition" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="lrequestApproved" xml:space="preserve">
+    <value>Requested Approved</value>
+  </data>
+  <data name="lrequestedBy" xml:space="preserve">
+    <value>Requested By</value>
+  </data>
+  <data name="lrequestedRejected" xml:space="preserve">
+    <value>Request Rejeceted</value>
+  </data>
+  <data name="lriskCategory" xml:space="preserve">
+    <value>Risk Category</value>
+  </data>
+  <data name="lshow" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="lsignature" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="lstandardCondition" xml:space="preserve">
+    <value>Standad Condition</value>
+  </data>
+  <data name="lapprovement" xml:space="preserve">
+    <value>Approvement</value>
+  </data>
+  <data name="lmachine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="lperiodBegin" xml:space="preserve">
+    <value>Period Begin </value>
+  </data>
+  <data name="lperiodDevation" xml:space="preserve">
+    <value>Deviation Period</value>
+  </data>
+  <data name="lperiodEnd" xml:space="preserve">
+    <value>Period End</value>
+  </data>
+  <data name="lproduct" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="lwhy" xml:space="preserve">
+    <value>Why</value>
+  </data>
+  <data name="lwhyBox" xml:space="preserve">
+    <value>5 Why to schow reason change for deviation</value>
+  </data>
+  <data name="ldeviationList" xml:space="preserve">
+    <value>Deviation List</value>
+  </data>
+  <data name="lnewDeviation" xml:space="preserve">
+    <value>New Deviation</value>
+  </data>
+  <data name="lupdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="lcreatedIn" xml:space="preserve">
+    <value>Created In</value>
+  </data>
+  <data name="lref" xml:space="preserve">
+    <value>Ref</value>
+  </data>
+  <data name="lalternativeIdMethod" xml:space="preserve">
+    <value>Alternative Identification Method </value>
+  </data>
+  <data name="lclose" xml:space="preserve">
+    <value>Expire Deviation</value>
+  </data>
+  <data name="ldetailRequestCondition" xml:space="preserve">
+    <value>Detail Request Condition</value>
+  </data>
+  <data name="lothers" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="lothersBox1" xml:space="preserve">
+    <value>REGIONAL QUALITY DIRECTOR APPROVAL:  REFER TO FTDS-BM-P-008  FOR REQUIREMENT</value>
+  </data>
+  <data name="lothersBox2" xml:space="preserve">
+    <value>PRODUCT ENGINEERING APPROVAL:  REFER TO FTDS-BM-P-008  FOR REQUIREMENT</value>
+  </data>
+  <data name="lothersBox3" xml:space="preserve">
+    <value>MANUFACTURING ENGINEERING APPROVAL:  REFER TO FTDS-BM-P-008  FOR REQUIREMENT.</value>
+  </data>
+  <data name="lothersBox4" xml:space="preserve">
+    <value>CUSTOMER APPROVAL:  REFER TO FTDS-BM-P-008  FOR REQUIREMENT</value>
+  </data>
+  <data name="lprint" xml:space="preserve">
+    <value>Print Deviation</value>
+  </data>
+  <data name="lremindGroup" xml:space="preserve">
+    <value>Remind Group</value>
+  </data>
+  <data name="lsave" xml:space="preserve">
+    <value>Save Deviation</value>
+  </data>
+  <data name="laddDeviation" xml:space="preserve">
+    <value>Add Deviation</value>
+  </data>
+  <data name="lcloseDeviation" xml:space="preserve">
+    <value>Expire Deviation</value>
+  </data>
+  <data name="ldate1" xml:space="preserve">
+    <value>Date 1</value>
+  </data>
+  <data name="ldate2" xml:space="preserve">
+    <value>Date 2</value>
+  </data>
+  <data name="leditDeviation" xml:space="preserve">
+    <value>Edit Deviation</value>
+  </data>
+  <data name="lfilterDeviation" xml:space="preserve">
+    <value>Filter Deviations</value>
+  </data>
+  <data name="lshowDeviation" xml:space="preserve">
+    <value>Show Deviation</value>
+  </data>
+  <data name="luseAllInputs" xml:space="preserve">
+    <value>Use All Inputs</value>
+  </data>
+  <data name="lemail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="lid" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="lrole" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="laddNewDeviation" xml:space="preserve">
+    <value>Add New Deviation</value>
+  </data>
+  <data name="actionFailed" xml:space="preserve">
+    <value>Action Failed.</value>
+  </data>
+  <data name="alertApprovedRejected" xml:space="preserve">
+    <value>You Can Not Approve And Reject At The Same Time!!</value>
+  </data>
+  <data name="alertCloseDeviation" xml:space="preserve">
+    <value>Expire Deviation Means You Will Not Be Able Later To Make Any Change On It, Are You Sure You Wish To Make This Action ?</value>
+  </data>
+  <data name="alertDeleteAttachment" xml:space="preserve">
+    <value>Are Sure, You Wish to Delete This Attachment ?</value>
+  </data>
+  <data name="alertSaveDeviationFirst" xml:space="preserve">
+    <value>You Can Not Make This Action Now, You Schould First Save The Deviation !</value>
+  </data>
+  <data name="approvementDone" xml:space="preserve">
+    <value>Your Approvement Was Succesfuly Done !</value>
+  </data>
+  <data name="chooseDeviation" xml:space="preserve">
+    <value>Please Choose a Deviation Before making this Action!</value>
+  </data>
+  <data name="deviationAdded" xml:space="preserve">
+    <value>The Deviation Was Successfuly Added</value>
+  </data>
+  <data name="deviationAlreadyClosed" xml:space="preserve">
+    <value>You Are Not Allowed To Make Any Change On This Item Because Its Already Closed !</value>
+  </data>
+  <data name="deviationNegativePeriod" xml:space="preserve">
+    <value>The Deviation Period Has Not Valid Inputs !, The Input &lt;&lt;P.Second date&gt;&gt; Must Be Bigger Than the Input &lt;&lt;P.First date&gt;&gt;</value>
+  </data>
+  <data name="deviationNotExist" xml:space="preserve">
+    <value>Deviation Does Not Exist.</value>
+  </data>
+  <data name="deviationPeriodNull" xml:space="preserve">
+    <value>The Deviation Period Has Not To Be Null!, You Can Choose Different Dates To Avoid This.</value>
+  </data>
+  <data name="deviationupdated" xml:space="preserve">
+    <value>The Deviation Was Successfly Updated.</value>
+  </data>
+  <data name="deviationWasClosed" xml:space="preserve">
+    <value>The Deviation Was Succesfuly Expired.</value>
+  </data>
+  <data name="emailSent" xml:space="preserve">
+    <value>An Email has been sent !</value>
+  </data>
+  <data name="errorCloseDeviation" xml:space="preserve">
+    <value>Error, The Deviation Cloud Not Be Expired.</value>
+  </data>
+  <data name="errorSendEmail" xml:space="preserve">
+    <value>Erros, The Email Was Not Sent Try Again !</value>
+  </data>
+  <data name="fileNotExist" xml:space="preserve">
+    <value>This File Dos Not Exist Any More!.</value>
+  </data>
+  <data name="fileRemovedFromList" xml:space="preserve">
+    <value>File Had Been Removed From The List!.</value>
+  </data>
+  <data name="formInputsNotValid" xml:space="preserve">
+    <value>The Form Inputs Are Not Valid !</value>
+  </data>
+  <data name="inputsMissing" xml:space="preserve">
+    <value>Inputs Are Missing !!</value>
+  </data>
+  <data name="inputsRequired" xml:space="preserve">
+    <value>Some Inputs Are Required .</value>
+  </data>
+  <data name="notAllowedToChange" xml:space="preserve">
+    <value>You Are Not Allowed To Make Any Change On This Item Because Its Already Expired !</value>
+  </data>
+  <data name="notAllowedToUpdateItem" xml:space="preserve">
+    <value>You Are Not Allowed To Update This Item !</value>
+  </data>
+  <data name="selectLine" xml:space="preserve">
+    <value>Please Choose Select a Line Before making this Action!</value>
+  </data>
+  <data name="alertApprovementAlreadyDone" xml:space="preserve">
+    <value>This Approvement Was Already Done, You Can Not Change IT !</value>
+  </data>
+  <data name="alertDeleteApprovementGroup" xml:space="preserve">
+    <value>Are Sure, You Wish to Delete This Approvement Group?</value>
+  </data>
+  <data name="alertDeviationValidation" xml:space="preserve">
+    <value> and You must Reject or Approve the Deviation</value>
+  </data>
+  <data name="alertInvalidTextEntered" xml:space="preserve">
+    <value>Invalid characters in text detected</value>
+  </data>
+  <data name="alertNoAccess" xml:space="preserve">
+    <value>You are not authorized to perform this action</value>
+  </data>
+  <data name="alertNoItemSelected" xml:space="preserve">
+    <value>No item selected</value>
+  </data>
+  <data name="alertOutlookNotRunning" xml:space="preserve">
+    <value>This Programm Use Outlock Service To Send Your Email, You Need To Execute Outlock First Than Send Your Email.</value>
+  </data>
+  <data name="alertTextboxEmpty" xml:space="preserve">
+    <value>Mandatory Text field(s) cannot be empty</value>
+  </data>
+  <data name="approvementAdded" xml:space="preserve">
+    <value>Approvement Group was successfully added!</value>
+  </data>
+  <data name="approvementUpdated" xml:space="preserve">
+    <value>Approvement Group was successfully updated!</value>
+  </data>
+  <data name="deleteDeviation" xml:space="preserve">
+    <value>delete Deviation</value>
+  </data>
+  <data name="emailSubjectLine" xml:space="preserve">
+    <value>/ Anlage :</value>
+  </data>
+  <data name="emailSubjectNewDeviationLine" xml:space="preserve">
+    <value>New Deviation for the Line:</value>
+  </data>
+  <data name="emailSubjectNewDeviationProduct" xml:space="preserve">
+    <value>New Deviation for the product : </value>
+  </data>
+  <data name="formInvalid" xml:space="preserve">
+    <value>Invalid Form</value>
+  </data>
+  <data name="inValid" xml:space="preserve">
+    <value>Invalid</value>
+  </data>
+  <data name="itemDeleted" xml:space="preserve">
+    <value>The Item was Successfuly Deleted</value>
+  </data>
+  <data name="itemDeleteError" xml:space="preserve">
+    <value>There Is No Item To Delete, You Should First Choose The Item To Delete!</value>
+  </data>
+  <data name="misc" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="passwordChanged" xml:space="preserve">
+    <value>Password has been changed</value>
+  </data>
+  <data name="passwordChangeFailed" xml:space="preserve">
+    <value>Password has been NOT changed</value>
+  </data>
+  <data name="passwordWrong" xml:space="preserve">
+    <value>Password is wrong</value>
+  </data>
+  <data name="saveFileDialog" xml:space="preserve">
+    <value>Choose A Directory To Save Your File</value>
+  </data>
+  <data name="valid" xml:space="preserve">
+    <value>Valid</value>
+  </data>
+  <data name="lselectItem" xml:space="preserve">
+    <value>--Please select the deviation type--</value>
+  </data>
+  <data name="lapprovementConfirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="lapprovementLightGreenMsg" xml:space="preserve">
+    <value>To save your Change, click confirm Button!.</value>
+  </data>
+  <data name="lapprovementLightRedMsg" xml:space="preserve">
+    <value>To approve or reject this Deviation you need first to save it.</value>
+  </data>
+  <data name="lriskMatrixInfo" xml:space="preserve">
+    <value>(X=?,Y=?), X correspond to  "Einfluss der Produktqualität"; Y correspond to  " Wahrscheinlichkeit der Entdeckung".</value>
+  </data>
+  <data name="lsticPrint" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="ldeviationexpiredChange" xml:space="preserve">
+    <value>This Deviation is expired, you can not approve or accept it!</value>
+  </data>
+  <data name="ldigitalSignature" xml:space="preserve">
+    <value>This document was created automatically and is valid without signature. Application: DeviationManager, Version 1.0</value>
+  </data>
+</root>

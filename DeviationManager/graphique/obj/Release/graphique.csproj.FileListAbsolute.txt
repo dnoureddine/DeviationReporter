@@ -1,0 +1,9 @@
+C:\Users\dnoureddin\Desktop\DeviationRep\DeviationManager\graphique\bin\Release\graphique.exe.config
+C:\Users\dnoureddin\Desktop\DeviationRep\DeviationManager\graphique\bin\Release\graphique.exe
+C:\Users\dnoureddin\Desktop\DeviationRep\DeviationManager\graphique\bin\Release\graphique.pdb
+C:\Users\dnoureddin\Desktop\DeviationRep\DeviationManager\graphique\obj\Release\graphique.csprojResolveAssemblyReference.cache
+C:\Users\dnoureddin\Desktop\DeviationRep\DeviationManager\graphique\obj\Release\graphique.Form1.resources
+C:\Users\dnoureddin\Desktop\DeviationRep\DeviationManager\graphique\obj\Release\graphique.Properties.Resources.resources
+C:\Users\dnoureddin\Desktop\DeviationRep\DeviationManager\graphique\obj\Release\graphique.csproj.GenerateResource.Cache
+C:\Users\dnoureddin\Desktop\DeviationRep\DeviationManager\graphique\obj\Release\graphique.exe
+C:\Users\dnoureddin\Desktop\DeviationRep\DeviationManager\graphique\obj\Release\graphique.pdb

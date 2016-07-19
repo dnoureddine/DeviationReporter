@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviationManager", "DeviationManager.csproj", "{3AC4E2A4-7A63-40A7-AEC6-2306F09F0F97}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupDeviatioManager", "SetupDeviatioManager\SetupDeviatioManager.vdproj", "{AF9D30AE-6356-4933-839D-9C0BC99C0193}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AC4E2A4-7A63-40A7-AEC6-2306F09F0F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC4E2A4-7A63-40A7-AEC6-2306F09F0F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC4E2A4-7A63-40A7-AEC6-2306F09F0F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC4E2A4-7A63-40A7-AEC6-2306F09F0F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9D30AE-6356-4933-839D-9C0BC99C0193}.Debug|Any CPU.ActiveCfg = Debug
+		{AF9D30AE-6356-4933-839D-9C0BC99C0193}.Release|Any CPU.ActiveCfg = Release
+		{AF9D30AE-6356-4933-839D-9C0BC99C0193}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
